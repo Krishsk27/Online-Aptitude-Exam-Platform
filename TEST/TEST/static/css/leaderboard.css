@@ -1,0 +1,60 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  padding-bottom: 3rem;
+}
+
+.header {
+  text-transform: uppercase !important;
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 3rem !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0 !important;
+}
+
+thead {
+  white-space: nowrap;
+}
+
+#scores {
+  width: 100%;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.ui.celled.table > thead > tr > th:first-child {
+  border-left: 1px solid rgba(34, 36, 38, 0.1);
+}
+
+button {
+  background-color: white;
+  border: none;
+}
+
+footer {
+  font-family: 'Roboto Slab', serif;
+  display: block;
+  position: fixed;
+  text-align: center;
+  background-color: #f8f9fa;
+  bottom: 0;
+  padding: 0.65rem 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}

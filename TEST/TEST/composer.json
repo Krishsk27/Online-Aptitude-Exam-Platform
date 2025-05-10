@@ -1,0 +1,13 @@
+{
+    "name": "forese/aptitude-test",
+    "description": "Web App to conduct aptitude tests for MOCKS 2021",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nilesh D",
+            "email": "nileshlund@gmail.com"
+        }
+    ],
+    "require": {}
+}
